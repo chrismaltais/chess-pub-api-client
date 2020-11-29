@@ -1,13 +1,13 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "chess/pub/api/version"
+require "chess/pub_api/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "chess-pub-api"
-  spec.version       = Chess::Pub::Api::VERSION
+  spec.version       = Chess::PubApi::VERSION
   spec.authors       = ["Chris Maltais"]
-  spec.email         = ["chris.maltais@shopify.com"]
+  spec.email         = ["chris.maltais@hotmail.ca"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
