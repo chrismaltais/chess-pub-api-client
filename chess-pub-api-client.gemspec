@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "chess/pub_api/version"
+require "chess_pub_api_client/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "chess-pub-api"
-  spec.version       = Chess::PubApi::VERSION
+  spec.name          = "chess-pub-api-client"
+  spec.version       = ChessPubApiClient::VERSION
   spec.authors       = ["Chris Maltais"]
   spec.email         = ["chris.maltais@hotmail.ca"]
 
@@ -39,5 +39,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
-  spec.add_development_dependency "pry", "~> 0.13.1"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "vcr", "~> 6.0.0"
+  spec.add_development_dependency "webmock"
 end

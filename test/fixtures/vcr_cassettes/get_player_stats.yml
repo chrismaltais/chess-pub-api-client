@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chess.com/pub/player/steezymalteezy/stats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chess.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 06 Dec 2020 01:57:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cf_bm=705238572134fd1e9e25bd4c10cb4682ec2058b5-1607219857-1800-AX6DU0lpQ4ZnOc2J3yTAjlDIvqlE2KY5R12Va2sBUvcwae7I/CRFaWudXj9mnGf8GdhaESQIQOL4FN21zcZbPz8=;
+        path=/; expires=Sun, 06-Dec-20 02:27:37 GMT; domain=.chess.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfduid=d39aae79e49429a4559a5258d6269d5951607219857; expires=Tue, 05-Jan-21
+        01:57:37 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      Vary:
+      - Accept-Encoding
+      X-Chesscom-Matched:
+      - pubapi_player_stats
+      Etag:
+      - W/"d64e34b6c88beb3462392967420b7c47"
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Sunday, 06-Dec-2020 00:39:32 GMT+0000
+      Cache-Control:
+      - public, max-age=5
+      Expires:
+      - Sun, 06 Dec 2020 01:57:42 GMT
+      X-Chesscom-Meta:
+      - lean=published
+      X-Chesscom-Request-Id-Lb:
+      - 92950f2fe2d5ed722e4c9ab90fce187c
+      X-Chesscom-Request-Id-Cdn:
+      - 5fd1f348dc3de6c0-EWR
+      X-Chesscom-Servedby:
+      - '62'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Cf-Cache-Status:
+      - REVALIDATED
+      Cf-Request-Id:
+      - 06d75de1620000e704f51aa000000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5fd265af0ddbe704-EWR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"chess_daily":{"last":{"rating":1278,"date":1458135404,"rd":288},"best":{"rating":1278,"date":1458135404,"game":"https://www.chess.com/game/daily/130818094"},"record":{"win":2,"loss":0,"draw":0,"time_per_move":3219,"timeout_percent":0}},"chess_rapid":{"last":{"rating":1148,"date":1605806139,"rd":136},"best":{"rating":1200,"date":1457532791,"game":"https://www.chess.com/live/game/5772211838"},"record":{"win":4,"loss":3,"draw":0}},"chess_bullet":{"last":{"rating":1462,"date":1458017324,"rd":295},"record":{"win":1,"loss":0,"draw":0}},"tactics":{"highest":{"rating":1004,"date":1457897802},"lowest":{"rating":579,"date":1458017368}},"lessons":{},"puzzle_rush":{}}'
+  recorded_at: Sun, 06 Dec 2020 01:57:37 GMT
+recorded_with: VCR 6.0.0

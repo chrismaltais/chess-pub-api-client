@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chess.com/pub/player/steezymalteezy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chess.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 06 Dec 2020 02:05:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cf_bm=f8d9638a8c211f05212a00dd040784bfd57d4e17-1607220311-1800-AfWPFO3JcStKDno9tgeSrwjci7CdzezK5S5vMPqUeR93/K/Yh76luA9ZAQNyn2ymzepDq2kA9+iSTJNHeO2CjYs=;
+        path=/; expires=Sun, 06-Dec-20 02:35:11 GMT; domain=.chess.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfduid=dfd2ab3ed5a301c1fb88b1d22a72d52451607220311; expires=Tue, 05-Jan-21
+        02:05:11 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      X-Chesscom-Matched:
+      - pubapi_player_profile
+      Etag:
+      - W/"a1db46b202a836fdffa7cb295ea26d28"
+      Link:
+      - <https://api.chess.com/context/Player.jsonld>; rel="http://www.w3.org/ns/json-ld#context";
+        type="application/ld+json"
+      Last-Modified:
+      - Sunday, 06-Dec-2020 00:46:36 GMT+0000
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=5
+      Expires:
+      - Sun, 06 Dec 2020 02:05:16 GMT
+      X-Chesscom-Meta:
+      - lean=published
+      X-Chesscom-Request-Id-Lb:
+      - b4afd9496333a93e41bf8233b38ac4d3
+      X-Chesscom-Request-Id-Cdn:
+      - 5fd1fda4ae443dbb-EWR
+      X-Chesscom-Servedby:
+      - '60'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Cf-Cache-Status:
+      - REVALIDATED
+      Cf-Request-Id:
+      - 06d764ccc30000159b8625b000000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5fd270c13dcf159b-EWR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"avatar":"https://images.chesscomfiles.com/uploads/v1/user/27146560.10c23b26.200x200o.6a22d0c359cd.jpeg","player_id":27146560,"@id":"https://api.chess.com/pub/player/steezymalteezy","url":"https://www.chess.com/member/steezymalteezy","name":"Chris
+        Maltais","username":"steezymalteezy","followers":0,"country":"https://api.chess.com/pub/country/CA","last_online":1606762717,"joined":1457532791,"status":"premium","is_streamer":false}'
+  recorded_at: Sun, 06 Dec 2020 02:05:11 GMT
+recorded_with: VCR 6.0.0

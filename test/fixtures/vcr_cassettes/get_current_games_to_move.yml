@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chess.com/pub/player/steezymalteezy/games/to-move
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chess.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 06 Dec 2020 02:16:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '12'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cf_bm=af768c85315e4bfe1cd2b97887c1d20b16d03902-1607220975-1800-ATz5msCaNTBRvdG6BxWuVunO2OB97Tv4u+UhlpOUAHvL2fyabL/3mV3yTOuywY9PVU6umeAiEOsyE6jgJyrCR0Q=;
+        path=/; expires=Sun, 06-Dec-20 02:46:15 GMT; domain=.chess.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfduid=d2cee4ce81e2250fb594d545154eb9a221607220975; expires=Tue, 05-Jan-21
+        02:16:15 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      X-Chesscom-Matched:
+      - pubapi_player_games
+      Etag:
+      - W/"6b2fef0954b0db4f7037731303364983"
+      Link:
+      - <https://api.chess.com/context/Games.jsonld>; rel="http://www.w3.org/ns/json-ld#context";
+        type="application/ld+json"
+      Last-Modified:
+      - Sunday, 06-Dec-2020 01:56:45 GMT+0000
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=5
+      Expires:
+      - Sun, 06 Dec 2020 02:16:20
+      X-Chesscom-Meta:
+      - lean=cached
+      X-Chesscom-Request-Id-Lb:
+      - 9ec9bb02d2bdb52c43ddfd9f33c3a198
+      X-Chesscom-Request-Id-Cdn:
+      - 5fd280f66b12c5f8-EWR
+      X-Chesscom-Servedby:
+      - '25'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Cf-Request-Id:
+      - 06d76eee040000c5f8083ef000000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5fd280f66b12c5f8-EWR
+    body:
+      encoding: UTF-8
+      string: '{"games":[]}'
+  recorded_at: Sun, 06 Dec 2020 02:16:15 GMT
+recorded_with: VCR 6.0.0

@@ -1,4 +1,4 @@
-require "chess/pub_api/version"
+require "chess_pub_api_client/version"
 
 module Chess
   module PubApi
