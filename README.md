@@ -1,11 +1,13 @@
 
-<div align="center">
-    <image width="400" align="center"src="https://raw.githubusercontent.com/chrismaltais/chess-pub-api-client/master/documentation/logo.png"/><br/>
-</div>
+<p align="center">
+    <image width="400" align="center" src="https://raw.githubusercontent.com/chrismaltais/chess-pub-api-client/master/documentation/logo.png"/><br/>
+</p>
 
 <p align="center">Unofficial Ruby client for the Chess.com Published Data API</p>
 
 ## Overview
+
+[![HitCount](http://hits.dwyl.com/chrismaltais/chess-pub-api-client.svg)](http://hits.dwyl.com/chrismaltais/chess-pub-api-client)
 
 [chess-pub-api-client](https://rubygems.org/gems/chess-pub-api-client) is an unofficial Ruby client for the [Chess.com Published Data REST API](https://www.chess.com/news/view/published-data-api). It's built with zero non-development dependencies to ensure your application remains lightweight.
 
