@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chris Maltais"]
   spec.email         = ["chris.maltais@hotmail.ca"]
 
-  spec.summary       = "Unofficial Ruby client for the Chess.com Public Data REST API."
-  spec.description   = "Unofficial Ruby client for Chess.com's Public Data REST API. Zero dependencies."
+  spec.summary       = "Unofficial Ruby client for the Chess.com Published Data REST API."
+  spec.description   = "Unofficial Ruby client for Chess.com's Published Data REST API. Zero dependencies."
   spec.homepage      = "https://github.com/chrismaltais/chess-pub-api"
   spec.license       = "MIT"
 
