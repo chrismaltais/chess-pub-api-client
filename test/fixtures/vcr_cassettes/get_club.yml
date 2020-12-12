@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chess.com/pub/club/chess-com-developer-community
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chess.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 12 Dec 2020 01:58:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cf_bm=4c51af2d06f14ee7839fdefacb6df15e3a049385-1607738309-1800-ARlwwRl4wRNNJXYKuhIt6ZhZnSEoz+er3yr3qaKOkmT2jC0Qs83V/BPk1/pbdfro7iTe7V3Y7UhJ9SufktIA0SA=;
+        path=/; expires=Sat, 12-Dec-20 02:28:29 GMT; domain=.chess.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfduid=d80d5a972242a834477bd1faa0d4cec691607738309; expires=Mon, 11-Jan-21
+        01:58:29 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      Vary:
+      - Accept-Encoding
+      Link:
+      - <https://api.chess.com/context/Club.jsonld>; rel="http://www.w3.org/ns/json-ld#context";
+        type="application/ld+json"
+      Etag:
+      - W/"1727623e619245d99c459e96840dfe44"
+      Last-Modified:
+      - Saturday, 12-Dec-2020 01:51:24 GMT+0000
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Chesscom-Matched:
+      - pubapi_club
+      Cache-Control:
+      - public, max-age=5
+      Expires:
+      - Sat, 12 Dec 2020 01:58:34 GMT
+      X-Chesscom-Meta:
+      - lean=published
+      X-Chesscom-Request-Id-Lb:
+      - 5403ba42bc60d9e43d1e9802268ecac6
+      X-Chesscom-Request-Id-Cdn:
+      - 6003ccd13edb3dc1-EWR
+      X-Chesscom-Servedby:
+      - '61'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Cf-Cache-Status:
+      - REVALIDATED
+      Cf-Request-Id:
+      - 06f644d40500000ca19b305000000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6003d7333e720ca1-EWR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"@id":"https://api.chess.com/pub/club/chess-com-developer-community","name":"Chess.com
+        Developer Community","club_id":57796,"country":"https://api.chess.com/pub/country/XX","average_daily_rating":1151,"members_count":3212,"created":1500301978,"last_activity":1598966974,"admin":["https://api.chess.com/pub/player/erik","https://api.chess.com/pub/player/bcurtis","https://api.chess.com/pub/player/jdcannon","https://api.chess.com/pub/player/andreamorandini"],"visibility":"public","join_request":"https://www.chess.com/club/join/57796","icon":"https://images.chesscomfiles.com/uploads/v1/group/57796.67ee0038.50x50o.585842f67281.png","description":"<p>Chess.com''s
+        official club for APIs, data, and code for developers.\u00a0Get involved!<br
+        /><br /></p>\n<p><a href=\"https://www.chess.com/news/view/published-data-api\"><a
+        href=\"https://www.chess.com/news/view/published-data-api\">https://www.chess.com/news/view/published-data-api</a></a><br
+        /><a href=\"https://www.npmjs.com/package/chess-web-api\" target=\"_blank\"
+        rel=\"noreferrer noopener\"><a href=\"https://www.npmjs.com/package/chess-web-api\"
+        target=\"_blank\">https://www.npmjs.com/package/chess-web-api</a></a><br /><a
+        href=\"https://github.com/ChessCom/ios-chessclock\" target=\"_blank\" rel=\"noreferrer
+        noopener\"><a href=\"https://github.com/ChessCom/ios-chessclock\" target=\"_blank\">https://github.com/ChessCom/ios-chessclock</a></a><br
+        /><a href=\"https://github.com/ChessCom/android-chessclock\" target=\"_blank\"
+        rel=\"noreferrer noopener\"><a href=\"https://github.com/ChessCom/android-chessclock\"
+        target=\"_blank\">https://github.com/ChessCom/android-chessclock</a></a></p>\n<p><br
+        />Our <a href=\"https://www.chess.com/news/view/chess-com-bug-bounty-policy\">Bug
+        Bounty Policy</a> is available <a href=\"https://www.chess.com/news/view/chess-com-bug-bounty-policy\">here</a>.\u00a0</p>","url":"https://www.chess.com/club/chess-com-developer-community"}'
+  recorded_at: Sat, 12 Dec 2020 01:58:29 GMT
+recorded_with: VCR 6.0.0

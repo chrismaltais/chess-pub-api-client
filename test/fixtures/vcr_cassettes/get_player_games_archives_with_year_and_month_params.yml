@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 06 Dec 2020 02:41:30 GMT
+      - Sat, 12 Dec 2020 02:24:43 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -29,11 +29,11 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cf_bm=e771a907f618f88eaed8133f8ce6340a60053585-1607222490-1800-AVrXJWIu7N0NQZXIP9NOFt9bswLZT+FBta6kyqqBtRmrosn8u33hQT1NjV07YB1J0AQoQVO5xSj3AvdN0f9KX20=;
-        path=/; expires=Sun, 06-Dec-20 03:11:30 GMT; domain=.chess.com; HttpOnly;
+      - __cf_bm=41e81882004b93256aa1754285e6bceabf7b5a71-1607739883-1800-AUW4AtY5wrr2CyFU3MthYFTxvQ2nClT6ufiqZ6gclpsH8TBybWbDKq0XKqPJQ4u/CIyco2SU9gAyQH+I2uHpFaM=;
+        path=/; expires=Sat, 12-Dec-20 02:54:43 GMT; domain=.chess.com; HttpOnly;
         Secure; SameSite=None
-      - __cfduid=d6381e905c27628895f73777484a3a1ee1607222490; expires=Tue, 05-Jan-21
-        02:41:30 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      - __cfduid=de45918bc062030385314e77e10c831461607739883; expires=Mon, 11-Jan-21
+        02:24:43 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
       Vary:
       - Accept-Encoding
       X-Chesscom-Matched:
@@ -44,33 +44,33 @@ http_interactions:
       - <https://api.chess.com/context/Games.jsonld>; rel="http://www.w3.org/ns/json-ld#context";
         type="application/ld+json"
       Last-Modified:
-      - Sunday, 06-Dec-2020 02:41:30 GMT+0000
+      - Saturday, 12-Dec-2020 02:24:43 GMT+0000
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
       - public, max-age=5
       Expires:
-      - Sun, 06 Dec 2020 02:41:35
+      - Sat, 12 Dec 2020 02:24:48
       X-Chesscom-Meta:
       - lean=published
       X-Chesscom-Request-Id-Lb:
-      - 727c928f226c46237170f9046959e7c3
+      - 50ea979f7ae8a59a9af3e776da1fe032
       X-Chesscom-Request-Id-Cdn:
-      - 5fd2a5f46899ccfa-EWR
+      - 6003fd9f7ae30cb9-EWR
       X-Chesscom-Servedby:
-      - '74'
+      - '29'
       Strict-Transport-Security:
       - max-age=63072000; includeSubDomains; preload
       Cf-Cache-Status:
       - MISS
       Cf-Request-Id:
-      - 06d7860cbc0000ccfa3daa9000000001
+      - 06f65cd7a900000cb9fc891000000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Server:
       - cloudflare
       Cf-Ray:
-      - 5fd2a5f46899ccfa-EWR
+      - 6003fd9f7ae30cb9-EWR
     body:
       encoding: ASCII-8BIT
       string: '{"games":[{"url":"https://www.chess.com/live/game/5770821419","pgn":"[Event
@@ -215,5 +215,5 @@ http_interactions:
         28... bxa6 {[%clk 0:07:42]} 29. Rb7+ {[%clk 0:04:46.9]} 29... Nxb7 {[%clk
         0:07:39.5]} 0-1","time_control":"600","end_time":1605806139,"rated":true,"fen":"r6r/1n2k3/p2p1n2/P2Pp3/6p1/7b/2P2P1P/3R2K1
         w - -","time_class":"rapid","rules":"chess","white":{"rating":1148,"result":"resigned","@id":"https://api.chess.com/pub/player/steezymalteezy","username":"steezymalteezy"},"black":{"rating":1360,"result":"win","@id":"https://api.chess.com/pub/player/militarycurtain","username":"MilitaryCurtain"}}]}'
-  recorded_at: Sun, 06 Dec 2020 02:41:30 GMT
+  recorded_at: Sat, 12 Dec 2020 02:24:43 GMT
 recorded_with: VCR 6.0.0

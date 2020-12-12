@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.chess.com/pub/player/steezymalteezy/games/archives
+    uri: https://api.chess.com/pub/country/CA
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 06 Dec 2020 02:37:34 GMT
+      - Sat, 12 Dec 2020 02:18:33 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -29,40 +29,42 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cf_bm=5b39ddd7cffa16636066a0fede773ed158f3161b-1607222254-1800-AZh2maOUBGjCQqnhHlVarubOPCrQBWdctJg8sgxAOGsE/RrVu+gj3ZtxCB9nfJKx06XNCDWYdIMnOQOv4RJjeno=;
-        path=/; expires=Sun, 06-Dec-20 03:07:34 GMT; domain=.chess.com; HttpOnly;
+      - __cf_bm=716b17cf5b4134bfb9801f6dac0f64c1b26e2829-1607739513-1800-AU3bgpgHnbnsRIaQpha6qS9nZdvIiFrIBckM767ZhpcxZ0j+JzLeyKyo8IbqMVwqnsaAwy3Npqvs4b39vNQzEqs=;
+        path=/; expires=Sat, 12-Dec-20 02:48:33 GMT; domain=.chess.com; HttpOnly;
         Secure; SameSite=None
-      - __cfduid=d75bad5e4224c5a9291eaf5cdc49d06d51607222254; expires=Tue, 05-Jan-21
-        02:37:34 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      - __cfduid=d0cd4f6a970e51e9f9402dc1de66132fd1607739513; expires=Mon, 11-Jan-21
+        02:18:33 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
       X-Chesscom-Matched:
-      - pubapi_player_games_archives
+      - pubapi_country
       Etag:
-      - W/"808e5f7c15dca507dfc3228778d4c9ca"
+      - W/"3299af41bfee6c6549f3d0ea9ee67ab6"
       Link:
-      - <https://api.chess.com/context/GameArchives.jsonld>; rel="http://www.w3.org/ns/json-ld#context";
+      - <https://api.chess.com/context/Country.jsonld>; rel="http://www.w3.org/ns/json-ld#context";
         type="application/ld+json"
       Last-Modified:
-      - Sunday, 06-Dec-2020 02:19:50 GMT+0000
+      - Friday, 27-Nov-2020 22:13:47 GMT+0000
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=5
+      - public, max-age=3600
       Expires:
-      - Sun, 06 Dec 2020 02:37:39 GMT
+      - Sat, 12 Dec 2020 03:07:32 GMT
       X-Chesscom-Meta:
-      - lean=published
+      - lean=cached
       X-Chesscom-Request-Id-Lb:
-      - 8a5db32544b70b099c84ddf79aba3370
+      - 84ab50379d180b677856a072c989953c
       X-Chesscom-Request-Id-Cdn:
-      - 5fd286383f043dae-EWR
+      - 5feae0703b4d0cb1-EWR
       X-Chesscom-Servedby:
-      - '29'
+      - '30'
       Strict-Transport-Security:
       - max-age=63072000; includeSubDomains; preload
       Cf-Cache-Status:
-      - REVALIDATED
+      - HIT
+      Age:
+      - '660'
       Cf-Request-Id:
-      - 06d7827361000015b7a6823000000001
+      - 06f65733340000cce22f0b5000000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Vary:
@@ -70,9 +72,9 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 5fd2a032386815b7-EWR
+      - 6003f4985cb6cce2-EWR
     body:
       encoding: ASCII-8BIT
-      string: '{"archives":["https://api.chess.com/pub/player/steezymalteezy/games/2016/03","https://api.chess.com/pub/player/steezymalteezy/games/2020/11"]}'
-  recorded_at: Sun, 06 Dec 2020 02:37:34 GMT
+      string: '{"@id":"https://api.chess.com/pub/country/CA","code":"CA","name":"Canada"}'
+  recorded_at: Sat, 12 Dec 2020 02:18:33 GMT
 recorded_with: VCR 6.0.0

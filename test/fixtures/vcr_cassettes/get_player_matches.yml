@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chess.com/pub/player/steezymalteezy/matches
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chess.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 12 Dec 2020 01:58:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cf_bm=acb6ecb46813b9a9c25d1ea1143265aa8340cdc6-1607738310-1800-AcP5oe5BlXfqYcH6Yvsext8HI5Tjc2SqozH5DT0fr87ZBfzN8uJXaJZsDL3wKEYVI4y8jRW43C9mw4DESKPNKaE=;
+        path=/; expires=Sat, 12-Dec-20 02:28:30 GMT; domain=.chess.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfduid=d8c35648fc345e4b23b6311a8c1eb9bb61607738310; expires=Mon, 11-Jan-21
+        01:58:30 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      X-Chesscom-Matched:
+      - pubapi_player_matches
+      Etag:
+      - W/"52db0eabaf4d7089a0670a1042cf5367"
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Saturday, 12-Dec-2020 01:48:54 GMT+0000
+      Cache-Control:
+      - public, max-age=5
+      Expires:
+      - Sat, 12 Dec 2020 01:58:35 GMT
+      X-Chesscom-Meta:
+      - lean=published
+      X-Chesscom-Request-Id-Lb:
+      - 1df651c6187b23f68c2e8dec7c305b92
+      X-Chesscom-Request-Id-Cdn:
+      - 6003c92829320ce9-EWR
+      X-Chesscom-Servedby:
+      - '72'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Cf-Cache-Status:
+      - REVALIDATED
+      Cf-Request-Id:
+      - 06f644d6380000156f4d90e000000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6003d736bb00156f-EWR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"finished":[],"in_progress":[],"registered":[]}'
+  recorded_at: Sat, 12 Dec 2020 01:58:30 GMT
+recorded_with: VCR 6.0.0

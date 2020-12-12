@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.chess.com/pub/player/steezymalteezy/games/to-move
+    uri: https://api.chess.com/pub/player/steezymalteezy/games
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 06 Dec 2020 02:16:15 GMT
+      - Sat, 12 Dec 2020 02:23:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -29,11 +29,11 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cf_bm=af768c85315e4bfe1cd2b97887c1d20b16d03902-1607220975-1800-ATz5msCaNTBRvdG6BxWuVunO2OB97Tv4u+UhlpOUAHvL2fyabL/3mV3yTOuywY9PVU6umeAiEOsyE6jgJyrCR0Q=;
-        path=/; expires=Sun, 06-Dec-20 02:46:15 GMT; domain=.chess.com; HttpOnly;
+      - __cf_bm=ba64f2937cc2d64247bc38a53f387ad2ef89e133-1607739786-1800-ARoPG7UKYGjgSyHW14tPQ0o9Ak7Eacm3sE9bC9wdya0RAKFSxZXJUjcRavb7Uv4JO2eA+luM7oSuHDnGoD/kmE0=;
+        path=/; expires=Sat, 12-Dec-20 02:53:06 GMT; domain=.chess.com; HttpOnly;
         Secure; SameSite=None
-      - __cfduid=d2cee4ce81e2250fb594d545154eb9a221607220975; expires=Tue, 05-Jan-21
-        02:16:15 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      - __cfduid=de0d9119a340a86d00ce9f9e9e5dc74331607739786; expires=Mon, 11-Jan-21
+        02:23:06 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
       X-Chesscom-Matched:
       - pubapi_player_games
       Etag:
@@ -42,21 +42,21 @@ http_interactions:
       - <https://api.chess.com/context/Games.jsonld>; rel="http://www.w3.org/ns/json-ld#context";
         type="application/ld+json"
       Last-Modified:
-      - Sunday, 06-Dec-2020 01:56:45 GMT+0000
+      - Saturday, 12-Dec-2020 02:23:06 GMT+0000
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
       - public, max-age=5
       Expires:
-      - Sun, 06 Dec 2020 02:16:20
+      - Sat, 12 Dec 2020 02:23:11
       X-Chesscom-Meta:
-      - lean=cached
+      - lean=published
       X-Chesscom-Request-Id-Lb:
-      - 9ec9bb02d2bdb52c43ddfd9f33c3a198
+      - 9c5362c58b080480407b371636b2c959
       X-Chesscom-Request-Id-Cdn:
-      - 5fd280f66b12c5f8-EWR
+      - 6003fb3f691cefd4-EWR
       X-Chesscom-Servedby:
-      - '25'
+      - '62'
       Strict-Transport-Security:
       - max-age=63072000; includeSubDomains; preload
       Cf-Cache-Status:
@@ -64,7 +64,7 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Cf-Request-Id:
-      - 06d76eee040000c5f8083ef000000001
+      - 06f65b5ba10000efd471ac5000000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Vary:
@@ -72,9 +72,9 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 5fd280f66b12c5f8-EWR
+      - 6003fb3f691cefd4-EWR
     body:
       encoding: UTF-8
       string: '{"games":[]}'
-  recorded_at: Sun, 06 Dec 2020 02:16:15 GMT
+  recorded_at: Sat, 12 Dec 2020 02:23:06 GMT
 recorded_with: VCR 6.0.0

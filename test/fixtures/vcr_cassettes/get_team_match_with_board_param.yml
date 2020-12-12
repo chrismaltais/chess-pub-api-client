@@ -1,0 +1,112 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.chess.com/pub/match/12803/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.chess.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 12 Dec 2020 02:18:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cf_bm=77c5ba30c40a0e919eed98b0ccef4fd6d85d7089-1607739510-1800-AUie8PrRNMGKcJCCjBdP3npArrcG+SNmTOkIl8qXgf0oR6RWIFJhS9VXJNMjSvpAKkJznJ+HieLHvS+lK+u01Ys=;
+        path=/; expires=Sat, 12-Dec-20 02:48:30 GMT; domain=.chess.com; HttpOnly;
+        Secure; SameSite=None
+      - __cfduid=d5fdbdd8dc2c9d2d3c2b3e59fc79772ff1607739510; expires=Mon, 11-Jan-21
+        02:18:30 GMT; path=/; domain=.chess.com; HttpOnly; SameSite=Lax
+      Vary:
+      - Accept-Encoding
+      Link:
+      - <https://api.chess.com/context/MatchBoard.jsonld>; rel="http://www.w3.org/ns/json-ld#context";
+        type="application/ld+json"
+      Etag:
+      - W/"b4093f16d4a7d4a8142b8e5b90340ab0"
+      Last-Modified:
+      - Saturday, 12-Dec-2020 02:04:46 GMT+0000
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Chesscom-Matched:
+      - pubapi_match_board
+      Cache-Control:
+      - public, max-age=3600
+      Expires:
+      - Sat, 12 Dec 2020 03:04:46 GMT
+      X-Chesscom-Meta:
+      - lean=published
+      X-Chesscom-Request-Id-Lb:
+      - df5cd4940e34023e1464caefed0d3534
+      X-Chesscom-Request-Id-Cdn:
+      - 6003e066af593dba-EWR
+      X-Chesscom-Servedby:
+      - '28'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '824'
+      Cf-Request-Id:
+      - 06f6572592000015bb18080000000001
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6003f4828a0d15bb-EWR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"board_scores":{"sorinel":1,"kllr":1},"games":[{"url":"https://www.chess.com/game/daily/23794338","pgn":"[Event
+        \"WORLD LEAGUE Round 5: Romania vs USA Southwest - Board 1\"]\n[Site \"Chess.com\"]\n[Date
+        \"2009.07.14\"]\n[Round \"-\"]\n[White \"sorinel\"]\n[Black \"Kllr\"]\n[Result
+        \"1/2-1/2\"]\n[Match \"https://www.chess.com/club/matches/12803\"]\n[CurrentPosition
+        \"r3r1k1/4p2p/1pn2bp1/6N1/2p3P1/P6P/1P3P2/R1BR2K1 w - - 3 23\"]\n[Timezone
+        \"UTC\"]\n[ECO \"B02\"]\n[ECOUrl \"https://www.chess.com/openings/Alekhines-Defense-Two-Pawns-Attack-3...Nb6\"]\n[UTCDate
+        \"2009.07.14\"]\n[UTCTime \"01:02:04\"]\n[WhiteElo \"2699\"]\n[BlackElo \"2671\"]\n[TimeControl
+        \"1/259200\"]\n[Termination \"Game drawn by agreement\"]\n[StartTime \"01:02:04\"]\n[EndDate
+        \"2009.08.10\"]\n[EndTime \"12:16:05\"]\n[Link \"https://www.chess.com/game/daily/23794338\"]\n\n1.
+        e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. Nf3 d6 5. d4 g6 6. exd6 cxd6 7. Be2 Bg7 8. h3
+        Nc6 9. Nc3 O-O 10. O-O Bf5 11. a3 Re8 12. Be3 d5 13. g4 Be6 14. c5 Nc4 15.
+        Bc1 b6 16. Bxc4 dxc4 17. d5 Bxc3 18. dxe6 Qxd1 19. Rxd1 Bf6 20. cxb6 axb6
+        21. exf7+ Kxf7 22. Ng5+ Kg8 1/2-1/2","time_control":"1/259200","end_time":1249906565,"rated":true,"fen":"r3r1k1/4p2p/1pn2bp1/6N1/2p3P1/P6P/1P3P2/R1BR2K1
+        w - - 3 23","start_time":1247533324,"time_class":"daily","rules":"chess","white":{"rating":2699,"result":"agreed","@id":"https://api.chess.com/pub/player/sorinel","username":"sorinel"},"black":{"rating":2671,"result":"agreed","@id":"https://api.chess.com/pub/player/kllr","username":"Kllr"},"match":"https://api.chess.com/pub/match/12803"},{"url":"https://www.chess.com/game/daily/23794339","pgn":"[Event
+        \"WORLD LEAGUE Round 5: Romania vs USA Southwest - Board 1\"]\n[Site \"Chess.com\"]\n[Date
+        \"2009.07.14\"]\n[Round \"-\"]\n[White \"Kllr\"]\n[Black \"sorinel\"]\n[Result
+        \"1/2-1/2\"]\n[Match \"https://www.chess.com/club/matches/12803\"]\n[CurrentPosition
+        \"8/5p2/3r1kp1/R6p/5P1P/5PK1/8/8 w - - 20 59\"]\n[Timezone \"UTC\"]\n[ECO
+        \"C53\"]\n[ECOUrl \"https://www.chess.com/openings/Giuoco-Piano-Game-Main-Line-Birds-Attack\"]\n[UTCDate
+        \"2009.07.14\"]\n[UTCTime \"01:02:04\"]\n[WhiteElo \"2344\"]\n[BlackElo \"2816\"]\n[TimeControl
+        \"1/259200\"]\n[Termination \"Game drawn by repetition\"]\n[StartTime \"01:02:04\"]\n[EndDate
+        \"2009.12.05\"]\n[EndTime \"16:48:44\"]\n[Link \"https://www.chess.com/game/daily/23794339\"]\n\n1.
+        e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. b4 Be7 6. d3 d5 7. exd5 Nxd5 8. O-O
+        O-O 9. Re1 Bf6 10. Bb2 a6 11. a4 Bf5 12. Nbd2 Nb6 13. Qe2 Nxc4 14. dxc4 Bd3
+        15. Qe3 Re8 16. Ne4 Bxc4 17. Rad1 Qe7 18. Nc5 Be6 19. Nxb7 Bb3 20. Ra1 e4
+        21. Nc5 exf3 22. Qxe7 Rxe7 23. Rxe7 Nxe7 24. Nxb3 Nd5 25. gxf3 Nxc3 26. Bxc3
+        Bxc3 27. Rc1 Bxb4 28. Rxc7 Kf8 29. Rb7 Bc3 30. Kg2 g6 31. Nc5 Bd4 32. Nd7+
+        Kg7 33. Nb8 Bc5 34. Nd7 Bd6 35. Rb6 Bc7 36. Rc6 Bf4 37. Nc5 a5 38. Nd3 Bd2
+        39. Rc2 Bb4 40. Rc6 Rd8 41. Nxb4 axb4 42. Rb6 Rd4 43. a5 Rd5 44. Rxb4 Rxa5
+        45. f4 Ra6 46. f3 Kf6 47. Rb5 h5 48. Kg3 Rd6 49. h4 Rd4 50. Ra5 Rd6 51. Rb5
+        Rc6 52. Ra5 Rd6 53. Rb5 Ra6 54. Rc5 Rd6 55. Ra5 Rc6 56. Rb5 Ra6 57. Rc5 Rb6
+        58. Ra5 Rd6 1/2-1/2","time_control":"1/259200","end_time":1260031724,"rated":true,"fen":"8/5p2/3r1kp1/R6p/5P1P/5PK1/8/8
+        w - - 20 59","start_time":1247533324,"time_class":"daily","rules":"chess","white":{"rating":2344,"result":"repetition","@id":"https://api.chess.com/pub/player/kllr","username":"Kllr"},"black":{"rating":2816,"result":"repetition","@id":"https://api.chess.com/pub/player/sorinel","username":"sorinel"},"match":"https://api.chess.com/pub/match/12803"}]}'
+  recorded_at: Sat, 12 Dec 2020 02:18:30 GMT
+recorded_with: VCR 6.0.0

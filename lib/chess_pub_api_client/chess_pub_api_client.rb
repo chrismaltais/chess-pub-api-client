@@ -27,19 +27,19 @@ module ChessPubApiClient
       handle_response(res)
     end
 
-    def get_current_games(username)
+    def get_player_current_games(username)
       uri = URI("https://api.chess.com/pub/player/#{username}/games")
       res = Net::HTTP.get_response(uri)
       handle_response(res)
     end
 
-    def get_current_games_to_move(username)
+    def get_player_current_games_to_move(username)
       uri = URI("https://api.chess.com/pub/player/#{username}/games/to-move")
       res = Net::HTTP.get_response(uri)
       handle_response(res)
     end
 
-    def get_games_archives(username, year: nil, month: nil)
+    def get_player_games_archives(username, year: nil, month: nil)
       if year && month
         uri = URI("https://api.chess.com/pub/player/#{username}/games/#{year}/#{month}")
       else
@@ -53,7 +53,12 @@ module ChessPubApiClient
       # TODO: Set appropriate headers required here
       uri = URI("https://api.chess.com/pub/player/#{username}/games/#{year}/#{month}/pgn")
       res = Net::HTTP.get_response(uri)
-      handle_response(res)
+      case res.code
+      when "200"
+        return res.body
+      else
+        raise StandardError.new("Error. HTTP Status Code: #{res.code}. JSON body: #{res.body}")
+      end
     end
 
     def get_player_clubs(username)
@@ -158,7 +163,15 @@ module ChessPubApiClient
     end
     
     def get_streamers
-    
+      uri = URI("https://api.chess.com/pub/streamers")
+      res = Net::HTTP.get_response(uri)
+      handle_response(res)
+    end
+
+    def get_leaderboards
+      uri = URI("https://api.chess.com/pub/leaderboards")
+      res = Net::HTTP.get_response(uri)
+      handle_response(res)
     end
     
     private
